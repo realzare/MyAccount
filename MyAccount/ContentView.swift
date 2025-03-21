@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Account
 //
-//  Created by Hossein Zare on 3/15/25.
+//  Created by Hossein Zare on 3/21/25.
 //
 
 import SwiftUI
@@ -110,7 +110,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(15)
                             .shadow(radius: 8)
-                            .scaleEffect(isFormValid ? 1.1 : 1.0)
+                            .scaleEffect(isFormValid ? 1.1 : 1.1)
                             .animation(.spring(), value: isFormValid)
                     }
                     .disabled(!isFormValid)
